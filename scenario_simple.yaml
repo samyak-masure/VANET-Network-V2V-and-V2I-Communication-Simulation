@@ -1,0 +1,22 @@
+simulation_time: 60
+time_step: 1.0
+
+vehicles:
+  count: 5
+  min_speed: 5
+  max_speed: 15
+  v2v_range: 120                 # meters
+  v2v_message_ttl: 5             # seconds messages remain 'hearable'
+  intersection_wait_prob: 0.5
+  intersection_wait_min: 5
+  intersection_wait_max: 15
+  global_rsu_check_interval: 1.0 # How often vehicles check for global RSU broadcasts (seconds)
+
+rsus:
+  count: 1
+  position: 100                  # start of RSU coverage (meters along road)
+  range: 200                     # RSU range is 200, which is > v2v_range (120)
+  broadcast_interval: 5
+
+intersections:
+  positions: [200, 400, 600, 800]
