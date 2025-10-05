@@ -12,7 +12,7 @@ FEATURES
    You can observe the network form and break connections as cars move — giving a clear view of how VANETs behave on the road.
 
 
-2. **Live Log Table**
+2. **Live Log Table of Communication Events**
    
    The simulator includes a Tkinter-based log table that displays live simulation events.
    It updates in real-time as the simulation runs, showing details such as:
